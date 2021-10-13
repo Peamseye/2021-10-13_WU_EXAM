@@ -1,0 +1,22 @@
+body {
+  background-color: #e12925;
+}
+
+div {
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 355px;
+  width: 325;
+  padding: 5px;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.5s;
+}
