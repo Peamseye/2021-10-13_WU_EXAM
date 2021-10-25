@@ -15,10 +15,12 @@ header {
 background-color: white;
 text-align: center;
 
+
 }
 
 header article {
 
+  text-decoration: none;
   text-align: center;
   
   font-size: 18px;
@@ -30,21 +32,25 @@ header article {
 article games {
 
 padding: 50px;  
+text-decoration: none;
 
 }
 
 article test {
 
 width: 100%;
+text-decoration: none;
 }
 
 article test2 {
 
 padding: 50px;
+text-decoration: none;
 }
 
 article development {
   width: 100%;
+  text-decoration: none;
 }
 
 img {
