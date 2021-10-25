@@ -9,9 +9,52 @@ div {
   flex-wrap: wrap;
 }
 
+
+header {
+
+  padding: 2px;
+
+}
+
+header {
+
+background-color: white;
+text-align: center;
+
+}
+
+header article {
+
+  text-align: center;
+  
+  font-size: 18px;
+  background-color: whitesmoke;
+  display: flex;
+  
+}
+
+article games {
+
+padding: 50px;  
+}
+
+article test {
+
+width: 100%;
+}
+
+article test2 {
+
+padding: 50px;
+}
+
+article development {
+  width: 100%;
+}
+
 img {
-  height: 355px;
-  width: 325;
+  height: 150px;
+  width: 350px;
   padding: 5px;
 }
 
