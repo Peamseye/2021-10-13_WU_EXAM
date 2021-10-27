@@ -19,6 +19,7 @@ header {
   text-align: center;
   font-size: 40px;
   background-color: white;
+  position: sticky;
 }
 
 a:link,
@@ -41,11 +42,13 @@ a:active {
 
 article {
   background-color: whitesmoke;
+  position: sticky;
+  
 }
 
 img {
-  height: 175px;
-  width: 350px;
+  height: 125px;
+  width: 250px;
   padding: 5px;
 }
 
