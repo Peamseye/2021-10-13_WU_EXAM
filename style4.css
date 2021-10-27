@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e12925;
+  }
+  
+  div {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  header {
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+  }
+  
+  a:link,
+  a:visited {
+    background-color: transparent;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover,
+  a:active {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+    background-color: transparent;
+  }
+  
+  article {
+    background-color: whitesmoke;
+  }
+  
+  img {
+    height: 175px;
+    width: 350px;
+    padding: 5px;
+  }
+  
+  img:hover {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
