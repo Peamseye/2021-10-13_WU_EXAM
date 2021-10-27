@@ -44,9 +44,9 @@
   }
   
   img {
-    height: 175px;
-    width: 350px;
-    padding: 5px;
+  height: 125px;
+  width: 250px;
+  padding: 5px;
   }
   
   img:hover {
