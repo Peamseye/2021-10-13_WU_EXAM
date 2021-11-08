@@ -6,6 +6,7 @@
 
 body {
   background-color: #e12925;
+  height: 3000px;
 }
 
 div {
@@ -20,6 +21,12 @@ header {
   font-size: 40px;
   background-color: white;
   position: sticky;
+}
+
+div.sticky {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
 }
 
 a:link,
@@ -43,7 +50,12 @@ a:active {
 article {
   background-color: whitesmoke;
   position: sticky;
-  
+}
+
+main {
+  display: flex;
+  background-color: white;
+  padding: 10px;
 }
 
 img {
