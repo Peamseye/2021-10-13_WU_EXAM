@@ -68,13 +68,13 @@ article {
 main {
   display: flex;
   background-color: #e12925;
-  height: 200px;
+  height: 100px;
 }
 
 div.article1 {
 
   background-color: white;
-  height: 75px;
+  height: 25px;
   
   display: flex;
 
@@ -83,13 +83,28 @@ div.article1 {
 
 
 
+
+
 footer {
   
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     background-color: #e12925;
     height: 3000px;
+}
+
+div.gameslol {
+
+  background-color: white;
+  width: 100%;
+  
+  text-align: center;
+
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+
 }
 
 
