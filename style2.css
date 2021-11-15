@@ -83,13 +83,26 @@ div.article1 {
 
 
 
+
+
 footer {
   
-    margin: 0;
-    padding: 0;
+    
+    
     box-sizing: border-box;
     background-color: #e12925;
     height: 3000px;
+}
+
+div.article2 {
+
+  background-color: white;
+  width: 100%;
+
+  display: flex;
+  padding: 10px;
+
+  text-align: center;
 }
 
 
