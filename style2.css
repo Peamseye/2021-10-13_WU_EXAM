@@ -86,25 +86,16 @@ div.article1 {
 
 
 footer {
-  
-    
     box-sizing: border-box;
     background-color: #e12925;
     height: 3000px;
 }
 
-div.gameslol {
+div.imgcontainer {
 
-  background-color: white;
-  width: 100%;
-  
-  text-align: center;
-
-  height: 75px;
   display: flex;
-  flex-wrap: wrap;
-  padding: 5px;
-
+  height: 300px;
+  width: 100%;
 }
 
 
