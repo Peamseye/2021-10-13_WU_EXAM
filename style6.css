@@ -53,7 +53,7 @@ a:active {
 }
 
 
-article {
+nav {
   background-color: whitesmoke;
   padding: 0px;
 
@@ -72,22 +72,13 @@ main {
 }
 
 div.article1 {
-
   background-color: white;
   height: 25px;
-  
-  display: flex;
-
-
+  width: 100%
 }
 
 
-
-
-
 footer {
-  
-    
     box-sizing: border-box;
     background-color: #e12925;
     height: 3000px;

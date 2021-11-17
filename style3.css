@@ -11,11 +11,9 @@ body {
 }
 
 
-div {
-  display: flex;
+div.container {
   max-width: 1400px;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 
@@ -53,7 +51,7 @@ a:active {
 }
 
 
-article {
+nav {
   background-color: whitesmoke;
   padding: 0px;
 
@@ -72,13 +70,9 @@ main {
 }
 
 div.article1 {
-
   background-color: white;
   height: 25px;
-  
-  display: flex;
-
-
+  width: 100%
 }
 
 
