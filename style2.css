@@ -10,14 +10,17 @@ body {
 }
 
 div.container {
-  max-width: 1400px;
-  width: 100%;
+    width: 100%;
+
+
 }
 
 header {
   text-align: center;
   font-size: 40px;
   background-color: white;
+
+
 }
 
 div.sticky {
@@ -78,12 +81,12 @@ footer h1 {
 
 .imgcontainer {
   display: flex;
-  
+
   height: 660px;
   width: 100%;
 
   display: flex;
-  flex-wrap: wrap;
+  flex: wrap;
 }
 
 img {
