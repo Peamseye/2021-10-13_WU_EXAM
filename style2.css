@@ -71,27 +71,47 @@ div.article1 {
   width: 100%;
 }
 
-footer {
+article {
   background-color: #e12925;
 }
 
-footer h1 {
+article h1 {
   background-color: white;
 }
 
 .imgcontainer {
 
-  height: 660px;
+  height: auto;
   width: 100%;
 
+  
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
+
+  
 }
 
+.imgcontainer img {
+
+  display: block;
+  height: 500px;
+  width: 850px;
+  
+  max-height: 100%;
+  max-width: 100%;
+ 
+}
+
+
+
 img {
-  height: 125px;
-  width: 250px;
+  height: 155px;
+  width: 300px;
   padding: 5px;
+  object-fit: fill;
+
+  max-width: 100%;
+ 
 }
 
 img:hover {
