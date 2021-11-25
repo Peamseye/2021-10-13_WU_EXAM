@@ -112,7 +112,7 @@ article h1 {
 
 img {
 
-
+  display: block;
   height: 100%;
   width: 100%;
 
