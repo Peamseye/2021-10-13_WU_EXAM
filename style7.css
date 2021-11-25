@@ -4,34 +4,30 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #e12925;
-  height: 3000px;
+  height: 1000px;
 }
 
+div.container {
+    width: 100%;
 
-div {
-  display: flex;
-  max-width: 1400px;
-  width: 100%;
-  flex-wrap: wrap;
+
 }
-
 
 header {
   text-align: center;
   font-size: 40px;
   background-color: white;
+
+
 }
 
-
 div.sticky {
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
-
 
 a:link,
 a:visited {
@@ -43,7 +39,6 @@ a:visited {
   display: inline-block;
 }
 
-
 a:hover,
 a:active {
   cursor: pointer;
@@ -52,18 +47,17 @@ a:active {
   background-color: transparent;
 }
 
-
 nav {
   background-color: whitesmoke;
   padding: 0px;
 
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 666;
 
   border: 2px solid snow;
 }
-
 
 main {
   display: flex;
@@ -74,36 +68,27 @@ main {
 div.article1 {
   background-color: white;
   height: 25px;
-  width: 100%
-}
-
-footer {
-    box-sizing: border-box;
-    background-color: #e12925;
-    height: 3000px;
-}
-
-div.gameslol {
-
-  background-color: white;
   width: 100%;
-  
-  text-align: center;
+}
 
-  height: 75px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5px;
+article {
+  background-color: #e12925;
+}
 
+article h1 {
+  background-color: white;
 }
 
 
 img {
-  height: 125px;
-  width: 250px;
+  height: 155px;
+  width: 300px;
   padding: 5px;
-}
+  object-fit: fill;
 
+  max-width: 100%;
+ 
+}
 
 img:hover {
   cursor: pointer;

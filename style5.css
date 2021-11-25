@@ -9,14 +9,18 @@ body {
   height: 1000px;
 }
 
-div {
-  width: 100%;
+div.container {
+    width: 100%;
+
+
 }
 
 header {
   text-align: center;
   font-size: 40px;
   background-color: white;
+
+
 }
 
 div.sticky {
@@ -24,8 +28,6 @@ div.sticky {
   position: sticky;
   top: 0;
 }
-
-
 
 a:link,
 a:visited {
@@ -48,12 +50,11 @@ a:active {
 nav {
   background-color: whitesmoke;
   padding: 0px;
-  text-align: center;
-  font-size: 40px;
 
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index: 666;
 
   border: 2px solid snow;
 }
@@ -67,28 +68,25 @@ main {
 div.article1 {
   background-color: white;
   height: 25px;
-  width: 100%
+  width: 100%;
 }
 
-footer {
-  box-sizing: border-box;
+article {
   background-color: #e12925;
 }
 
-div.gameslol {
+article h1 {
   background-color: white;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin: 100px;
-  height: 75px;
-  padding: 10px;
 }
 
 img {
-  height: 125px;
-  width: 250px;
+  height: 155px;
+  width: 300px;
   padding: 5px;
+  object-fit: fill;
+
+  max-width: 100%;
+ 
 }
 
 img:hover {
