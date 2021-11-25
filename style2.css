@@ -91,6 +91,7 @@ article h1 {
     display: flex;
     justify-content: center;
     gap: 10px;
+    overflow: hidden;
   }
   
   /* Clearfix (clear floats) */
@@ -111,7 +112,6 @@ article h1 {
 
 img {
 
-  
 
   height: 100%;
   width: 100%;
