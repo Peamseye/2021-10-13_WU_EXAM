@@ -10,17 +10,14 @@ body {
 }
 
 div.container {
-    width: 100%;
-    padding: 10px 40px;
-
+  width: 100%;
+  padding: 10px 40px;
 }
 
 header {
   text-align: center;
   font-size: 40px;
   background-color: white;
-
-
 }
 
 div.sticky {
@@ -33,7 +30,7 @@ a:link,
 a:visited {
   background-color: transparent;
   color: black;
-  
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -83,42 +80,36 @@ article h1 {
   background-color: white;
 }
 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-    
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    overflow: hidden;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 
-  .responsive { 
-    width: 100%;
-       
-    max-height: 450px;
-    max-width: 800px;
-   
-  }
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
 
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.responsive {
+  width: 100%;
+
+  max-height: 450px;
+  max-width: 800px;
+}
 
 img {
-
   display: block;
   height: 100%;
   width: 100%;
-
 }
-
-
 
 .container img {
   height: 155px;
@@ -127,7 +118,6 @@ img {
   object-fit: fill;
 
   max-width: 100%;
- 
 }
 
 img:hover {
